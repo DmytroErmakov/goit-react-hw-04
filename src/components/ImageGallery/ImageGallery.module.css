@@ -1,0 +1,24 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.galleryItem {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.imageWrapper {
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
